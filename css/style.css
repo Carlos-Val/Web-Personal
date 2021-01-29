@@ -1,9 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: black;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+   
 }
 .botones{
     display: flex;
@@ -11,10 +16,52 @@ body{
     height: 2.5em;
     margin-top: 1em;
     margin-right: 1em;
-    background-color: burlywood;
+    background-color: ;
     
     
 }
 .espacioBotones{
     margin-right: 0.4em;
 }
+
+.presentacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    background-color:;
+    height: 23em;
+    
+}
+.cuadroPresentacion{
+    display: flex;
+    background-color: ;
+    height: 20em;
+    width: 80%;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contieneLetras{
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+    height: 19em;
+    width: 23em;
+}
+p{
+    font-size: 5em;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+}
+.iAmVal:hover + .carlosVal{
+    color: rgb(185, 40, 40);
+    transition: 2.5s;
+    font-family: fantasy;
+    font-size: 5em;
+}
+.carlosVal{
+    color: black;
+    font-size: 4em;
+    transition: 2.5s;    
+}
+
