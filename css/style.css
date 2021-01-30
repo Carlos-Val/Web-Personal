@@ -16,7 +16,7 @@ body{
     height: 2.5em;
     margin-top: 1em;
     margin-right: 1em;
-    background-color: ;
+    
 }
 @media (max-width: 31.25em) {
     .botones {
@@ -32,13 +32,11 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items:flex-end;
-    background-color:;
     height: 23em;
     
 }
 .cuadroPresentacion{
     display: flex;
-    background-color:;
     height: 20em;
     width: 80%;
     align-items: flex-end;
@@ -47,7 +45,6 @@ body{
 .contieneLetras{
     display: flex;
     flex-direction: column;
-    background-color: ;
     height: 19em;
     width: 23em;
 }
