@@ -4,7 +4,7 @@
 }
 body{
     background-color: black;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,12 +17,16 @@ body{
     margin-top: 1em;
     margin-right: 1em;
     background-color: ;
-    
-    
+}
+@media (max-width: 31.25em) {
+    .botones {
+        justify-content: center;
+    }
 }
 .espacioBotones{
     margin-right: 0.4em;
 }
+
 
 .presentacion{
     display: flex;
@@ -34,7 +38,7 @@ body{
 }
 .cuadroPresentacion{
     display: flex;
-    background-color: ;
+    background-color:;
     height: 20em;
     width: 80%;
     align-items: flex-end;
@@ -50,18 +54,55 @@ body{
 p{
     font-size: 5em;
     color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;      
 }
+@media (max-width: 31.25em) {
+    p {font-size: 3em;
+    }
+}
+
 .iAmVal:hover + .carlosVal{
     color: rgb(185, 40, 40);
     transition: 2.5s;
     font-family: fantasy;
-    font-size: 5em;
+    font-size: 5em;  
+}
+@media (max-width: 31.25em) {
+    .iAmVal:hover + .carlosVal{
+        font-size: 3em;
+    } 
 }
 .carlosVal{
     color: black;
     font-size: 4em;
-    transition: 2.5s;    
+    transition: 2.5s;
+}
+@media (max-width: 31.25em) {
+    .carlosVal{
+        font-size: 3em;
+    }     
+}
+.explicacion{
+    
+    height:10em;
+    width: 20em;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transform: rotate(270deg);
 }
 
+.dentroExplicacion{
+    display: flex;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+@media (max-width: 33.75em){
+    .explicacion{
+        transform: rotate(0deg);
+        width: 15em;
+        height: 9em;
+    }
+
+}
