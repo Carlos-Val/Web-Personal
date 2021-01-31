@@ -68,7 +68,7 @@ body{
     display: flex;
     justify-content: center;
 }
-@media (max-width: 31.25em) {
+@media (max-width: 33.75em) {
     .cuadrados {
         flex-direction: column;
         align-items: center;
@@ -85,7 +85,7 @@ body{
     text-align: center;
     transition: 2.5s;
 }
-@media (max-width:31.25em){
+@media (max-width:33.75em){
     .cuadra1{
         margin-right: 0em;
         margin-bottom: 1em;
@@ -106,7 +106,7 @@ body{
     text-align: center; 
     transition: 2.5s;   
 }
-@media (max-width:31.25em){
+@media (max-width:33.75em){
     .cuadra2{
         margin-right: 0em;
         margin-bottom: 1em;
@@ -124,7 +124,7 @@ body{
     text-align: center;
     transition: 2.5s;
 }
-@media (max-width:31.25em){
+@media (max-width:33.75em){
     .cuadra3{
         margin-right: 0em;
         margin-bottom: 1em;
