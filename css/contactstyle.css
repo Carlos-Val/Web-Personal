@@ -1,19 +1,144 @@
 *{
     margin: 0;
     padding: 0;
+    
+
 }
 body{
-    background-color: #000;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url(../img/fondo\ negro\ 2.jpg);
+}
+.botones{
+    display: flex;
+    justify-content: flex-end;
+    height: 2.5em;
+    margin-top: 1em;
+    margin-right: 1em;
+    
+}
+@media (max-width: 31.25em) {
+    .botones {
+        justify-content: center;
+    }
+}
+.espacioBotones{
+    margin-right: 0.4em;
+}
+.contieneFoto{
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10em;   
+}
+@media (max-width: 31.25em) {
+    .contieneFoto {
+        height: 8em;
+    }
 }
 .hola{
-    background-image: url(../img/foto.jpg);
-    position: center;
+    background-image: url(../img/foto.jpg);    
     width: 5em;
     height: 6em;
     border-radius: 50%;
 }
 
+.nombre{
+    color:white;
+    font-size: 3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    display: flex;
+    justify-content: center;
+    
+}
+@media (max-width: 31.25em) {
+    .nombre {
+        font-size: 2em;
+    }
+}
+.cuadrados{
+    
+    height: 15em;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 31.25em) {
+    .cuadrados {
+        flex-direction: column;
+        align-items: center;
+        height: 35em;
+        
+    }
+}
+.cuadra1{
+    color: transparent;
+    height: 13em;
+    width: 15em;
+    margin-right: 2em; 
+    border: white 0.3125em outset;
+    text-align: center;
+    transition: 2.5s;
+}
+@media (max-width:31.25em){
+    .cuadra1{
+        margin-right: 0em;
+        margin-bottom: 1em;
+    }
+}
+.cuadra1:hover{
+    color: white;
+    transition: 2.5s;
+}
+
+.cuadra2{
+    color: transparent;
+    justify-content: center;
+    height: 13em;
+    width: 15em;
+    margin-right: 2em;
+    border: white 0.3125em outset; 
+    text-align: center; 
+    transition: 2.5s;   
+}
+@media (max-width:31.25em){
+    .cuadra2{
+        margin-right: 0em;
+        margin-bottom: 1em;
+    }
+}
+.cuadra2:hover{
+    color: white;
+    transition: 2.5s;
+}
+.cuadra3{
+    color: transparent;
+    height: 13em;
+    width: 15em;
+    border:white 0.3125em outset; 
+    text-align: center;
+    transition: 2.5s;
+}
+@media (max-width:31.25em){
+    .cuadra3{
+        margin-right: 0em;
+        margin-bottom: 1em;
+    }
+}
+.cuadra3:hover{
+    color: white;
+    transition: 2.5s;
+}
+.footer{
+    
+    color: white;
+    display: flex;
+    justify-content: center;     
+    height: 2em;
+    
+}

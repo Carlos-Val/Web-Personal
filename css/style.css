@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    background-image: url(../img/fondo\ negro\ 1.jpg);    
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,7 +44,9 @@ body{
 }
 .contieneLetras{
     display: flex;
+    margin-right: 1em;
     flex-direction: column;
+    align-items: flex-end;
     height: 19em;
     width: 23em;
 }
@@ -70,7 +72,7 @@ p{
     } 
 }
 .carlosVal{
-    color: black;
+    color: transparent;
     font-size: 4em;
     transition: 2.5s;
 }
